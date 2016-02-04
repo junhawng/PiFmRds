@@ -545,7 +545,7 @@ int main(int argc, char **argv) {
     char *ps = NULL;
     char *rt = "PiFmRds: live FM-RDS transmission from the RaspberryPi";
     uint16_t pi = 0x1234;
-    float ppm = 0;
+    float ppm = 75000;
     
     
     // Parse command-line arguments
